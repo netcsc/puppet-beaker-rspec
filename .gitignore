@@ -1,0 +1,17 @@
+.bundle/
+path/
+Gemfile.lock
+spec/fixtures/manifests
+spec/fixtures/modules
+vendor/
+junit/
+log/
+.idea/
+.vagrant/
+.project
+.yardoc
+pkg
+.bundle
+.vendor
+.DS_Store
+**/.DS_Store
