@@ -1,6 +1,6 @@
 class some_module (
   Optional[String] $username,
-  Sensitive $password = Sensitive(lookup({ 'name' => 'bnsiis::password' })),
+  Sensitive $password = Sensitive(lookup({ 'name' => 'some_module::password' })),
   Optional[Array] $binaries,
   Optional[Boolean] $enable_web_deploy,
 ) {
